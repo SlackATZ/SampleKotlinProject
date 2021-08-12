@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/nav_main"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/side_nav_bg_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:background="@mipmap/ic_remi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="bottom"
+            android:text="@string/nav_main" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_nav"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/side_nav_bg_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:background="@mipmap/ic_remi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="bottom"
+            android:text="@string/nav_nav" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_web"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/side_nav_bg_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:background="@mipmap/ic_remi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="bottom"
+            android:text="@string/nav_webview" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_http"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/side_nav_bg_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:background="@mipmap/ic_remi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="bottom"
+            android:text="@string/nav_http" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_http_json"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/side_nav_bg_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:background="@mipmap/ic_remi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="bottom"
+            android:text="@string/nav_http_json" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_intent_filter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/side_nav_bg_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:background="@mipmap/ic_remi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="bottom"
+            android:text="@string/nav_intent_filter" />
+    </LinearLayout>
+
+</LinearLayout>

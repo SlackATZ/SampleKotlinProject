@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sample</string>
+
+    <string name="main_nav_header_title">Android Studio</string>
+    <string name="main_nav_header_subtitle">android.studio@android.com</string>
+    <string name="main_nav_header_desc">Navigation header</string>
+
+    <string name="menu_note">Note</string>
+    <string name="menu_browser">Browser</string>
+    <string name="menu_sub">sub</string>
+    <string name="test">aaa\n\n\n\n\n\n\n\n\n\naaaa\n\n\naaaaa\n\n\n\n\n\naaaa</string>
+
+    <string name="nav_main">Main Activity</string>
+    <string name="nav_nav">Nav Sample</string>
+    <string name="nav_webview">Webview Sample</string>
+    <string name="nav_http">Http Sample</string>
+    <string name="nav_http_json">Http Json Sample</string>
+    <string name="nav_intent_filter">Intent Filter Sample</string>
+</resources>
