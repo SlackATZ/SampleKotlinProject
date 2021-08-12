@@ -23,7 +23,7 @@ class Sample : Activity() {
                 intent?.action == Intent.ACTION_VIEW -> {
                     //val line_msg = intent.toString().split("msg/text/")
                     val uri = intent.toUri(0).split("msg/text/")
-                    val msg = uri[0].split("#Intent")
+                    val msg = uri[1].split("#Intent")
 
                     val manager =
                         applicationContext.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
